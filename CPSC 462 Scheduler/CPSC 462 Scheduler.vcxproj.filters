@@ -15,8 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="User Interface\SchedulerInteraction\Source.cpp">
+    <ClCompile Include="User Interface\SchedulerInteraction\SchedulerInteraction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\UserAccount\UserList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Domain\UserAccount\EmployeeAccount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="User Interface\SchedulerInteraction\SchedulerInteration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\UserAccount\EmployeeAccount.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Domain\UserAccount\UserList.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
